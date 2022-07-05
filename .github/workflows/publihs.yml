@@ -23,7 +23,7 @@ jobs:
        # - name: configure
          # run: npm config set registry https://registry.npmjs.org/npm-modue-test  
         - name: publish
-          run: npm install
+         # run: npm install
           run: npm publish #--access public
           env:
             token: ${{ secrets.NPM_AUTH_TOKEN }} 
